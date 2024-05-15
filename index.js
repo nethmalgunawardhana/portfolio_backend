@@ -7,7 +7,7 @@ require('dotenv').config();
 const Project = require('./Project');
 
 app.get('/', (req, res) => {
-    res.send('Hello, World!');
+    res.send('Hello,World!');
 });
 
 app.get('/projects', async (req, res) => {

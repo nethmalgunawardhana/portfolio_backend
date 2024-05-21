@@ -33,7 +33,7 @@ app.get("/blogs", async (req, res) => {
   //create an endpoint for creating a project
 app.post("/projects", async (req, res) => {
   console.log(req.body);
-  res.send("Creating a project");
+  //res.send("Creating a project");
 
   const project = new Project(req.body);
 

@@ -3,6 +3,9 @@ const app = express();// create an express app
 const port = 5000;
 
 app.use(express.json());
+// this is entry point of the application
+const cors =require('cors');
+app.use(cors());
 
 require('dotenv').config();
 const Project = require('./Project');
